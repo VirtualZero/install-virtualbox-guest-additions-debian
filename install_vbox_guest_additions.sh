@@ -6,7 +6,7 @@ update() {
 
 install_vbox_ga() {
     apt-get install build-essential module-assistant -y
-    m-a prepare
+    m-a prepare -y
 
     read -p "Insert the VirtualBox Guest Additions image now. Press any key to continue: "
 
